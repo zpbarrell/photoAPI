@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Photo</title>
+</head>
+<body>
+    <!-- <h1>Welcome to the photo dumper</h1> -->
+
+    <form id="form">
+        <label for="pxlWidth">Pixel Width:</label> 
+        <br/>
+        <input type="text" id="width">
+        <br/>
+        <label for="pxlHeight">Pixel Height:</label>
+        <br/>
+        <input type="text" id="height"> <br/>
+        <input type="submit" id="submit" value="Get Image">
+    </form>
+    <div id="color">
+    <img src="" id="random-img" class="center">
+    </div>
+    <nav>
+        <!-- <input type="button" id="grayscale" value="Make Grayscale" > -->
+        <button onclick="makeGray()" id="grayScale">Grayscale</button>
+        <button onclick="makeSepia()" id="sepia">Sepia</button>
+        <button onclick="makeOriginal()" id="original">Original</button>
+    </nav>
+    <script src="./script.js"></script>
+</body>
+</html>
