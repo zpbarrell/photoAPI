@@ -1,31 +1,54 @@
+body {
+    background-color: rgb(227, 222, 222);
+}
+
 form {
+position: relative;
 text-align: center;
 padding: 10px;
-margin: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
 } 
 
-body {
-    background-color: gray;
-}
 
 #random-img {
     text-align: center;
+    opacity: 5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img : hover {
-    animation: shake 0.5s;
-}
+
 #submit {
-    padding:x;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
 }
 nav {
     text-align: center;
     padding-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
-{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+
+button {
+margin-left:  10px;
+margin-right: 10px;
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#1e1d1d;
+text-align:center;
+transition: all 0.2s;
+
 }
+
+
 
 .center {
     display: block;
